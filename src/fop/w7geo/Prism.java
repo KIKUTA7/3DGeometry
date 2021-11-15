@@ -3,7 +3,11 @@ package fop.w7geo;
 public class Prism {
   private double height;
   private BaseArea base;
-
+  public Prism (BaseArea base, double height)
+  {
+    this.height = height;
+    this.base = base;
+  }
   public double getHeight() {
     return height;
   }
