@@ -1,8 +1,8 @@
 package fop.w7geo;
 
 public class RegularPolygon extends BaseArea {
- private final int n;
- private final double length;
+ private  int n;
+ private  double length;
  public RegularPolygon (int n, double length)
  {
      this.n=n;

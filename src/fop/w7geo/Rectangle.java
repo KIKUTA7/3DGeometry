@@ -1,8 +1,8 @@
 package fop.w7geo;
 
 public class Rectangle extends BaseArea {
-private final double width;
-private final double  height;
+private  double width;
+private  double  height;
 public Rectangle (double width, double height)
 {
     this.width = width;
